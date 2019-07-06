@@ -1,0 +1,539 @@
+@charset "utf-8";
+
+/* CSS Document */
+body,
+p,
+ul,
+ol,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+select,
+textarea,
+td {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+    background: #fffbff;
+	display: flex;
+	flex-direction: column;
+}
+
+html {
+	font-size: 26.67vw;
+
+}
+
+a {
+	display: block;
+	text-decoration: none;
+
+}
+
+img {
+	display: block;
+}
+
+.shengbei{
+	flex: 1;
+	overflow-y: auto;
+}
+
+/* header */
+.headerBox {
+	width: 100%;
+	height: .48rem;
+	background: #FFFFFF;
+}
+
+.headerSmallBox {
+	width: 3.3rem;
+	height: .48rem;
+	margin: 0 auto;
+}
+
+.headerSmallBox a {
+	float: left;
+	margin-top: .18rem;
+	font-size: .13rem;
+	color: black;
+
+}
+
+.headerSmallBox a img {
+	width: .05rem;
+	height: .05rem;
+	float: right;
+	margin-top: .13rem;
+}
+
+.headerSmallBox .select {
+	width: 1.33rem;
+	height: .34rem;
+	margin-top: .06rem;
+	margin-left: .42rem;
+	border: 4px solid #42b6ff;
+	border-radius: .1rem;
+	float: left;
+}
+
+.headerSmallBox .select p {
+	font-size: .13rem;
+	text-align: center;
+	line-height: .35rem;
+	width: .66rem;
+	color: #42b6ff;
+	border-radius: .07rem;
+}
+
+.headerSmallBox .select p:first-child {
+	float: left;
+	background: #42b6ff;
+	color: #FFFFFF;
+}
+
+.headerSmallBox .select p:last-child {
+	float: right;
+}
+
+.headerSmallBox img {
+	width: .2rem;
+	height: .24rem;
+	margin-top: .12rem;
+	margin-left: .18rem;
+	float: right;
+}
+
+
+/* nav */
+.navBox {
+	width: 100%;
+	height: .4rem;
+	background: #FFFFFF;
+}
+
+.navSmallBox {
+	width: 3.3rem;
+	height: .4rem;
+	margin: 0 auto;
+}
+
+.navSmallBox p {
+	width: .32rem;
+	height: .35rem;
+	float: left;
+	margin-right: .25rem;
+	margin-top: .03rem;
+	font-size: .12rem;
+	color: #9c9a9c;
+	line-height: .35rem;
+	text-align: center;
+}
+
+.navSmallBox p:first-child {
+	color: black;
+	font-weight: 900;
+}
+
+
+/* lunnbotu */
+.lunBo {
+	width: 100%;
+	height: 1.5rem;
+	background: #FFFFFF;
+	margin-top: .16rem;
+}
+
+.lunBox {
+	width: 3.3rem;
+	height: 1.5rem;
+	margin: 0 auto;
+	background: orangered;
+}
+
+
+
+/* section */
+.section {
+	width: 100%;
+	height: 1.1rem;
+}
+
+.sectionBox {
+	width: 3.3rem;
+	height: 1.1rem;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.sectionBox .sectionSmallBox {
+	width: .5rem;
+	height: .61rem;
+
+}
+
+.sectionBox .sectionSmallBox img {
+	width: .4rem;
+	height: .4rem;
+	margin: 0 auto;
+}
+
+.sectionBox .sectionSmallBox p {
+
+	font-size: .11rem;
+	color: black;
+	margin-top: .09rem;
+	text-align: center;
+}
+
+
+
+/* sectionTeach */
+.sectionTeach {
+	width: 100%;
+	height: .49rem;
+}
+
+.sectionTeachBox {
+	width: 3.3rem;
+	height: .49rem;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.sectionTeachBox p {
+	font-size: .17rem;
+	color: black;
+	float: left;
+}
+
+.sectionTeachBox p:last-child {
+	font-size: .11rem;
+	color: #7b7d84;
+	float: right;
+}
+
+
+
+/* sectionVideo */
+.sectionVideo {
+	width: 100%;
+}
+
+.sectionVideoBox {
+	width: 3.3rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.sectionVideoBox .sectionVideoSmall {
+	width: 1.59rem;
+	height: 1.74rem;
+	margin-bottom: .2rem;
+}
+
+.sectionVideoBox .sectionVideoSmall a {
+	width: 100%;
+	height: .96rem;
+	background: url(../img/video.png);
+	background-size: 1.59rem .99rem;
+}
+
+.sectionVideoBox .sectionVideoSmall p {
+	font-size: .14rem;
+	color: black;
+	margin-top: .11rem;
+	width: 100%;
+}
+
+.sectionVideoBox .sectionVideoSmall .videoDown {
+	width: .62rem;
+	height: .18rem;
+	margin-top: .17rem;
+	float: left;
+	border-radius: .07rem;
+	background: #fff7ef;
+}
+
+.sectionVideoBox .sectionVideoSmall .videoDown img {
+	margin-top: .04rem;
+	margin-left: .04rem;
+	width: .1rem;
+	height: .1rem;
+	float: left;
+}
+
+.sectionVideoBox .sectionVideoSmall .videoDown span {
+	font-size: .09rem;
+	color: #ff5d29;
+	display: block;
+	float: right;
+	margin-top: .03rem;
+	margin-right: .05rem;
+}
+
+
+
+
+
+/* sectionTalk */
+.sectionTalk {
+	width: 100%;
+	height: .49rem;
+	margin-top: .15rem;
+}
+
+.sectionTalkBox {
+	width: 3.3rem;
+	height: .49rem;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.sectionTalkBox p {
+	font-size: .17rem;
+	color: black;
+	float: left;
+}
+
+.sectionTalkBox p:last-child {
+	font-size: .11rem;
+	color: #7b7d84;
+	float: right;
+}
+
+
+/* sectionCard */
+.cardBox{
+	display: flex;
+	flex: 1;
+	overflow-x:auto ;
+}
+
+.sectionCard {
+	display: flex;
+	width: 6rem;
+	height: 1.45rem;
+}
+
+.sectionCardBox {
+	width: 1.97rem;
+	height: 1.27rem;
+	padding-left: .15rem;
+	padding-right: .15rem;
+	border-radius: .07rem;
+	border: 2px solid #f7f7f7;
+	margin-left: .16rem;
+}
+
+.sectionCardBox .cardTop {
+	margin-top: .19rem;
+}
+
+
+
+.sectionCardBox img {
+	width: .36rem;
+	height: .36rem;
+	float: left;
+}
+
+.sectionCardBox .cardRight {
+	float: left;
+	margin-left: .08rem;
+
+}
+
+.sectionCardBox .cardRight p {
+
+	font-size: .14rem;
+	color: black;
+
+}
+
+.sectionCardBox .cardRight p:last-child {
+	font-size: .1rem;
+	color: #9c9a9c;
+	margin-top: .05rem;
+}
+
+.sectionCardBox .card {
+	margin-top: .1rem;
+	font-size: .12rem;
+	color: black;
+	line-height: .2rem;
+	float: left;
+	font-weight: 600;
+}
+
+/* sectionMai */
+.sectionMai{
+	width: 100%;
+	
+}
+
+.sectionMaiBox{
+	width: 3.3rem;
+	margin: 0 auto .05rem ;
+}
+
+.sectionMaiBox .maiTop{
+	margin-top: .26rem;
+}
+
+.sectionMaiBox .maiTop h1{
+	float: left;
+	background: #636563;
+	width: .26rem;
+	height: .16rem;
+	font-size: .1rem;
+	color: #FFFFFF;
+	border-radius: .03rem 0 .03rem 0 ;
+	line-height: .16rem;
+	text-align: center;
+}
+
+.sectionMaiBox .maiTop p{
+	width: 100%;
+	font-size:.16rem ;
+	color:black ;
+}
+
+.sectionMaiBox h4{
+	font-size:.11rem ;
+	color:#9c9a9c ;
+	margin-top: .12rem;
+}
+
+.sectionMaiBox .maiDown{
+	width: 100%;
+	margin-top: .16rem;
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: .22rem;
+}
+
+.sectionMaiBox .maiDown .maiLeft{
+	width:.55rem ;
+	height:.34rem ;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.sectionMaiBox .maiDown .maiLeft img{
+	width:.24rem ;
+	height: .24rem;
+	
+}
+
+.sectionMaiBox .maiDown .maiLeft span{
+	display: block;
+	font-size:.11rem ;
+	color: #9c9a9c;
+}
+
+.sectionMaiBox .maiDown .maiRight{
+	width:.48rem ;
+	height:.34rem ;
+}
+
+.sectionMaiBox .maiDown .maiRight p{
+	font-size:.13rem ;
+	color:#ff5d29;
+	text-align: right;
+}
+
+.sectionMaiBox .maiDown .maiRight p:last-child{
+	font-size:.09rem ;
+	color:#9c9a9c;
+}
+
+
+/* sectionDi */
+.sectionDi{
+	width: 100%;
+	height: .48rem;
+	font-size:.11rem ;
+	color:#adaaad ;
+	line-height: .48rem;
+	text-align: center;
+}
+
+
+/* footer */
+.footer{
+	width: 100%;
+	height: .5rem;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+.footerLeft{
+	width:1.49rem ;
+	height: .5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.footerLeft .leftOne{
+	width:.23rem ;
+	height: .36rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footerLeft .leftOne img{
+	width:.2rem ;
+	height:.2rem ;
+}
+
+.footerLeft .leftOne p{
+	color:#6b696b ;
+	font-size: .11rem;
+}
+
+.footer .footerPos{
+	position: absolute;
+	width:.61rem ;
+	height:.55rem ;
+	border-radius: 50%;
+	border: 2px solid #f7f7f7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	bottom: 0;
+	left: 1.49rem;
+}
+
+.footer .footerPos img{
+	width: .32rem;
+	height: .32rem;
+}
